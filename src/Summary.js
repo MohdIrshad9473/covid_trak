@@ -6,6 +6,7 @@ class Summary extends Component {
         const { summary, currentDate } = this.props;
         return (
             <div className="row">
+           
                 <div className="newConferm">
                     <h3>New Confirmed</h3>
                     <h1>{summary.NewConfirmed}</h1>
@@ -42,7 +43,7 @@ class Summary extends Component {
                 
 
 
-
+                <h5> Developed by : Irshad </h5>
 
             </div>
         )
